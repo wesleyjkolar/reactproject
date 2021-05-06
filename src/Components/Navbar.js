@@ -13,7 +13,7 @@ import {
 import "../styling/navbar.css";
 
 const Navbar = () => {
-  const [inputValue, setInputValue] = useState("tech");
+  const [inputValue, setInputValue] = useState("");
   const isSignedIn = useSelector(selectSignedIn);
   const userData = useSelector(selectUserData);
 
