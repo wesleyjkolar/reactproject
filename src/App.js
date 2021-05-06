@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Blogs from "./Components/Blogs";
-import Homepage from "./Components/Homepage";
-import Navbar from "./Components/Navbar";
+import Blogs from "./components/Blogs";
+import Homepage from "./components/Homepage";
+import Navbar from "./components/Navbar";
 import { selectSignedIn } from "./features/userSlice";
 import "./styling/app.css";
 
